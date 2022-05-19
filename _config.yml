@@ -47,7 +47,7 @@ linkedin_username: har2008preet
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Harpreet Singh and I'm a mobile tead lead @ Collegedunia . Along with mobile app development I also have experience making backend and system designs. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name is Harpreet Singh and I'm a mobile tead lead @ Collegedunia . Along with mobile app development I also have experience making backend and system designs. I have worked at a number of companies gaining teamwork and leadership skills.
 
 #I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -87,7 +87,7 @@ content:
             - Created and Launched new product KickCash from scratch in React Native
             - Responsible for transferring existing native Collegedunia applications to React Native.
             - Integrating new features as well as analytic to maintain user engagement.
-    
+
       # - layout: left
       #   title: Collegedunia
       #   link: collegedunia.com
@@ -133,7 +133,7 @@ content:
   #     - Chess
   #     - Rocket League
 
-#       Look at this cool image  
+#       Look at this cool image
 #      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer

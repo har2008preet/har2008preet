@@ -83,24 +83,24 @@ content:
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            • Responsible for maintaining multiple apps like, Collegedunia, frizza, Zoutons.
-            • Created and Launched new product KickCash from scratch in React Native
-            • Responsible for transferring existing native Collegedunia applications to React Native.
-            • Integrating new features as well as analytic to maintain user engagement.
+            - Responsible for maintaining multiple apps like, Collegedunia, frizza, Zoutons.
+            - Created and Launched new product KickCash from scratch in React Native
+            - Responsible for transferring existing native Collegedunia applications to React Native.
+            - Integrating new features as well as analytic to maintain user engagement.
     
-      - layout: left
-        title: Collegedunia
-        link: collegedunia.com
-        # link_text: boringcompany.com
-        sub_title: Tead Lead
-        caption: October 2020 - Present
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            • Responsible for maintaining multiple apps like, Collegedunia, frizza, Zoutons.
-            • Created and Launched new product KickCash from scratch in React Native
-            • Responsible for transferring existing native Collegedunia applications to React Native.
-            • Integrating new features as well as analytic to maintain user engagement.
+      # - layout: left
+      #   title: Collegedunia
+      #   link: collegedunia.com
+      #   # link_text: boringcompany.com
+      #   sub_title: Tead Lead
+      #   caption: October 2020 - Present
+      #   # quote: >
+      #   #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+      #   description: | # this will include new lines to allow paragraphs
+      #       • Responsible for maintaining multiple apps like, Collegedunia, frizza, Zoutons.
+      #       • Created and Launched new product KickCash from scratch in React Native
+      #       • Responsible for transferring existing native Collegedunia applications to React Native.
+      #       • Integrating new features as well as analytic to maintain user engagement.
 
       # - layout: left
       #       title: The Boring Company

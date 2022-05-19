@@ -49,7 +49,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Harpreet Singh and I'm a mobile tead lead @ Collegedunia . Along with mobile app development I also have experience making backend and system designs. I have worked at a number of companies gaining teamwork and leadership skills.
 
-  # I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+#I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 # content:
 #   - title: Projects # Title for the section

@@ -3,11 +3,11 @@ repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 2
+version: 3
 
 # Personal info
 name: Harpreet Singh
-title: Software Developer
+title: Senior Mobile Application Developer
 email: har2008preet@gmail.com
 
 # Dark Mode (true/false/never)
@@ -15,132 +15,99 @@ darkmode: false
 
 # Social links
 twitter_username: Har1994preet
-github_username:  har2008preet
+github_username: har2008preet
 stackoverflow_username: "3001746"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
 linkedin_username: har2008preet
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Harpreet Singh and I'm a mobile tead lead @ Collegedunia . Along with mobile app development I also have experience making backend and system designs. I have worked at a number of companies gaining teamwork and leadership skills.
+about_content: | 
+  Hi, my name is Harpreet Singh, and I'm a Senior Mobile Application Developer @ A'alda. I specialize in building robust, scalable mobile apps using React Native and Android Native. With over 6 years of experience, I’ve led teams to create efficient, cross-platform mobile applications and backend systems, focusing on quality and performance. My expertise lies in architecting solutions that enhance user engagement while optimizing for performance across platforms.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
         title: react-native-assistant-context
         link: https://github.com/har2008preet/react-native-assistant-context
-        # link_text: Project Website
-#        additional_links:
-#          - title:  sproogen/modern-resume-theme
-#            icon: fab fa-github
-#            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#        quote: >
-#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way of learning working of <mark>React Native Library</mark>.
+        description: |
+          This project was initiated as a learning exercise in building reusable components and contexts for React Native. It demonstrates a clean, structured way to manage state and interactions within a React Native application.
       - layout: top-middle
-        title: toastify
+        title: Toastify
         link: https://github.com/collegeduniadevelopers/Toastify
-        description: | # this will include new lines to allow paragraphs
-          Singelton, unique implementation of android toast
+        description: |
+          A Singleton implementation of Android Toast with unique enhancements, offering more control over toast duration and appearance. Ideal for mobile apps needing consistent and unobtrusive feedback to users.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
+      - layout: left
+        title: A'alda
+        sub_title: Senior Mobile Application Developer
+        caption: August 2023 - Present
+        description: |
+          - Lead the development and maintenance of mobile apps, ensuring scalability and cross-platform compatibility.
+          - Built a micro front-end architecture that allows teams to independently develop and release modules over the air.
+          - Introduced performance improvements and optimized CI/CD pipelines for seamless deployments across platforms.
+
       - layout: left
         title: Collegedunia
         link: collegedunia.com
-        # link_text: boringcompany.com
-        sub_title: Tead Lead
-        caption: October 2020 - Present
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-          - Responsible for maintaining multiple apps like, Collegedunia, frizza, Zoutons.
-          - Created and Launched new product KickCash from scratch in React Native
-          - Responsible for transferring existing native Collegedunia applications to React Native.
-          - Integrating new features as well as analytic to maintain user engagement.
+        sub_title: Mobile Engineering Team Lead
+        caption: October 2020 - August 2023
+        description: |
+          - Spearheaded the migration from native Android to React Native for multiple applications, improving development speed and feature parity across iOS and Android.
+          - Architected and implemented hybrid WebView integration to seamlessly integrate dynamic web content into mobile apps, enabling rapid content updates without app re-releases.
+          - Successfully launched new apps such as KickCash, helping the company expand its offerings and reach new markets.
+          - Managed a crash-free rate of over 99%, ensuring a smooth and reliable user experience across all apps.
+          
+      - layout: left
+        title: Collegedunia
+        sub_title: Android Developer
+        caption: October 2018 - October 2020
+        description: |
+          - Developed high-traffic Android applications such as Frizza and Pocketcharge, which achieved millions of downloads.
+          - Played a key role in optimizing applications for the US market, ensuring compliance with local regulations and user expectations.
+          - Maintained and enhanced the Collegedunia app, integrating analytics tools to monitor and improve user engagement metrics.
 
       - layout: left
         title: Actiwate
-#        link: collegedunia.com
-#         link_text: boringcompany.com
         sub_title: Full Stack Developer
         caption: November 2017 - September 2018
-        # quote: >
-        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-          Worked on Native Android Development, Hybrid App Development(Ionic), Node Js-Loopback API development, Angularjs, React native and Python, Elasticsearch, DevOps
+        description: |
+          - Worked on building robust backend systems using Node.js with Loopback and integrating them with mobile applications.
+          - Gained significant experience in DevOps, handling deployment, monitoring, and continuous integration for mobile and backend solutions.
+          - Built native Android and hybrid apps using Ionic, with a focus on delivering a smooth and responsive user experience.
 
       - layout: left
         title: Idecorama
-#        link: boringcompany.com
-        # link_text: boringcompany.com
         sub_title: Intern Android Developer
         caption: June 2016 - August 2016
-#        quote: >
-#          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-          - Developed android application for Idecorama.com from scratch, in team of 3 people.
-          - Developed the UI/UX part of the application along with networking part(using Retrofit library).
-          - Became familiar with the coding practice in Industry.
+        description: |
+          - Developed an Android application from scratch, collaborating with a team to design user-friendly interfaces and integrate API services.
+          - Focused on enhancing user experience by optimizing networking layers using Retrofit and crafting intuitive UI designs.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: Indian Institute of Information Technology and Management
         caption: 2012 - 2017
         sub_title: B.Tech + M.Tech
-        # quote: >
-        #   Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-         During my time at IIITM I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        description: |
+          Graduated with a dual degree in Information Technology, developing a deep understanding of software engineering principles, networking, and data structures. Gained strong teamwork and leadership skills through various academic and extracurricular projects.
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Football
+    content: |
+      Outside of my professional interests, I’m passionate about:
+      - Football (Liverpool FC supporter)
       - Chess
       - Rocket League
 
-#       Look at this cool image
-#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
